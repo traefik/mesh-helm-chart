@@ -1,0 +1,502 @@
+apiVersion: v1
+entries:
+  maesh:
+  - apiVersion: v2
+    appVersion: v1.3.2
+    created: "2020-07-09T17:37:31.032105989Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.1.0
+    description: Maesh - Simpler Service Mesh
+    digest: 83f50f587025e38db81a56f0708fbc3d4e741d08a79b45305d6e310fa420e809
+    home: https://mae.sh/
+    icon: https://raw.githubusercontent.com/containous/maesh/v1.2/docs/content/assets/img/maesh.png
+    keywords:
+    - traefik
+    - mesh
+    - smi
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    - email: manuel@containo.us
+      name: santode
+    - email: harold@containo.us
+      name: jspdown
+    - email: kevin@containo.us
+      name: kevinpollet
+    name: maesh
+    sources:
+    - https://github.com/containous/maesh/
+    urls:
+    - maesh-2.1.2.tgz
+    version: 2.1.2
+  - apiVersion: v2
+    appVersion: v1.3.1
+    created: "2020-07-09T17:37:31.030584434Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.1.0
+    description: Maesh - Simpler Service Mesh
+    digest: 447da845f83a2fe0f0db80f80f46cafacaf3b74b695fdd660d10c40f672699af
+    home: https://mae.sh/
+    icon: https://raw.githubusercontent.com/containous/maesh/v1.2/docs/content/assets/img/maesh.png
+    keywords:
+    - traefik
+    - mesh
+    - smi
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    - email: manuel@containo.us
+      name: santode
+    - email: harold@containo.us
+      name: jspdown
+    - email: kevin@containo.us
+      name: kevinpollet
+    name: maesh
+    sources:
+    - https://github.com/containous/maesh/
+    urls:
+    - maesh-2.1.1.tgz
+    version: 2.1.1
+  - apiVersion: v2
+    appVersion: v1.2.0
+    created: "2020-07-09T17:37:31.019015302Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: b57618335b7dd860b98a620e858b3a277e131f88fe1d1305db6567ed4590fa34
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2020-07-09T17:37:31.003791601Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 910397a06d27472b71cb7572b3cb019b368bd8905d876cdbf6b0498499af5b56
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: v1.1.0-rc2
+    created: "2020-07-09T17:37:30.982350061Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: cdbd5f2b2f448f33fa6203d1ff6f55703b5afb47d8cc6830e19c9c9b98fd3ec6
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-1.1.0-rc2.tgz
+    version: 1.1.0-rc2
+  - apiVersion: v2
+    appVersion: v1.1.0-rc1
+    created: "2020-07-09T17:37:30.964622022Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 83c2cefdc940d3e92cf650331ccc73250780ca9ca45d83d405272be576d798ec
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-1.1.0-rc1.tgz
+    version: 1.1.0-rc1
+  - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2020-07-09T17:37:30.961548294Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 3ceb51b990890697beab70e3b43b176e1ec0c41dc277fa79fc5cf90fe80d7272
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: v0.8.0
+    created: "2020-07-09T17:37:30.955078574Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 76e3bce5cd131fc0333137c4d08e8f3551dec6661e8031dabd372d80bb015a15
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v1
+    appVersion: v0.7.0
+    created: "2020-07-09T17:37:30.953063974Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 338335af4b6448562678213789ac405a798aa02053ab883aaae3a001bee82a3a
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v1
+    appVersion: v0.6.0
+    created: "2020-07-09T17:37:30.950633013Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 29710358d2d709c6e1fc8b26e441c8f3b09d7482a4ca4507fd313e48633c18b4
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v1
+    appVersion: v0.5.0
+    created: "2020-07-09T17:37:30.94868179Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 9c55f8d3aeb837c31309fc947862ee0bbb64342116e63b746d0960a74e867cca
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: v0.4.0
+    created: "2020-07-09T17:37:30.947210883Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.0.6
+    description: Maesh - Simpler Service Mesh
+    digest: 12d970fe9a44d2d732b64cc0aa0065f443ee3ed895189629dcb4568552e9054f
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v1
+    appVersion: v0.3.0
+    created: "2020-07-09T17:37:30.945390936Z"
+    dependencies:
+    - condition: tracing.enabled
+      name: tracing
+      repository: ""
+      version: 0.0.1
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 0.0.4
+    description: Maesh - Simpler Service Mesh
+    digest: 076419c25f246905f54ef1e62c6d456314bf11861614702fd537b01dc18d4033
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    appVersion: v0.2.1
+    created: "2020-07-09T17:37:30.942751091Z"
+    dependencies:
+    - condition: tracing.enabled
+      name: tracing
+      repository: ""
+      version: 0.0.1
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 0.0.4
+    description: Maesh - Simpler Service Mesh
+    digest: 7b5f046932093fee5f210ac5dd2357eaf51c81b3de38e8556d5bb9a6ff8bacc7
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    appVersion: v0.2.0
+    created: "2020-07-09T17:37:30.940252481Z"
+    dependencies:
+    - condition: tracing.enabled
+      name: tracing
+      repository: ""
+      version: 0.0.1
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 0.0.4
+    description: Maesh - Simpler Service Mesh
+    digest: fe4d306f4b3da42416f1999dad8fd4356fab60a1aab78e0f0d5bf6ffc1ae8bfe
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.2.tgz
+    version: 0.0.1
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2020-07-09T17:37:30.93772511Z"
+    dependencies:
+    - condition: tracing.enabled
+      name: tracing
+      repository: ""
+      version: 0.0.1
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 0.0.1
+    description: Maesh - Simpler Service Mesh
+    digest: 14a1f2c5dc31e7bf6a16579dc07628d6b25968d255f36c1598418722495ca484
+    home: https://containo.us/
+    icon: https://avatars0.githubusercontent.com/u/16349663?s=200&v=4
+    keywords:
+    - traefik
+    - mesh
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel@containo.us
+      name: dtomcej
+    - email: michael@containo.us
+      name: mmatur
+    name: maesh
+    urls:
+    - maesh-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-07-09T17:37:30.934590095Z"
