@@ -16,7 +16,7 @@ Moreover, Traefik Mesh is opt-in by default, which means that your existing serv
 To install the chart with the release name `traefik-mesh`:
 
 ```bash
-$ helm repo add traefik-mesh https://traefik.github.io/mesh/charts
+$ helm repo add traefik-mesh https://helm.traefik.io/mesh
 $ helm repo update
 $ helm install traefik-mesh traefik-mesh/traefik-mesh
 ```
@@ -123,7 +123,7 @@ As the proxies are vanilla Traefik, check out the corresponding [documentation](
 ### Tracing
 
 The following table lists the available parameters to configure the tracing integrations on the Traefik Mesh proxies.
-As the proxies are vanilla Traefik, check out the corresponding [documentation](https://docs.traefik.io/observability/tracing/overview/) for more details.   
+As the proxies are vanilla Traefik, check out the corresponding [documentation](https://docs.traefik.io/observability/tracing/overview/) for more details.
 
 | Key                                      | Description                                                                                                                                      | Default                                |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
