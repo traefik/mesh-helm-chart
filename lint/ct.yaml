@@ -1,0 +1,6 @@
+chart-dirs:
+  - ./
+remote: mesh
+target-branch: master
+debug: true
+check-version-increment: true
