@@ -22,7 +22,7 @@ $ helm install traefik-mesh traefik-mesh/traefik-mesh
 ```
 
 You can use the `--namespace my-namespace` flag to deploy Traefik Mesh in a custom namespace and the `--set "key1=val1,key2=val2,..."` flag to configure it.
-Where `key1=val1`, `key2=val2`, `...` are chart values that you can find at https://github.com/traefik/mesh/blob/master/helm/chart/mesh/values.yaml.
+Where `key1=val1`, `key2=val2`, `...` are chart values that you can find in the [values.yaml](./values.yaml) file.
 
 ## Uninstalling the Chart
 

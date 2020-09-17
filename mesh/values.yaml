@@ -18,7 +18,7 @@ limits:
 
 controller:
   image:
-    name: containous/maesh
+    name: traefik/mesh
     # (Optional)
     # pullPolicy: IfNotPresent
     # (Optional)
