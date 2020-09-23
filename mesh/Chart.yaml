@@ -1,7 +1,7 @@
 apiVersion: v2
 name: traefik-mesh
-version: 3.0.2
-appVersion: v1.4.0-rc1
+version: 3.0.3
+appVersion: v1.4.0
 description: Traefik Mesh - Simpler Service Mesh
 type: application
 keywords:
@@ -17,13 +17,13 @@ maintainers:
   - name: dtomcej
     email: daniel.tomcej@gmail.com
   - name: mmatur
-    email: michael@containo.us
+    email: michael@traefik.io
   - name: santode
-    email: manuel@containo.us
+    email: manuel@traefik.io
   - name: jspdown
-    email: harold@containo.us
+    email: harold@traefik.io
   - name: kevinpollet
-    email: kevin@containo.us
+    email: kevin@traefik.io
 icon: https://raw.githubusercontent.com/traefik/mesh/master/docs/content/assets/img/traefik-mesh.png
 dependencies:
   - name: tracing

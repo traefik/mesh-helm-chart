@@ -88,7 +88,7 @@ The following table lists the configurable parameters of the Traefik Mesh chart 
 ### Metrics
 
 The following table lists the available parameters to configure the metrics integrations on the Traefik Mesh proxies.
-As the proxies are vanilla Traefik, check out the corresponding [documentation](https://docs.traefik.io/observability/metrics/overview/) for more details.
+As the proxies are vanilla Traefik, check out the corresponding [documentation](https://doc.traefik.io/traefik/observability/metrics/overview/) for more details.
 
 | Key                                              | Description                                                                                                      | Default                                    |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -123,7 +123,7 @@ As the proxies are vanilla Traefik, check out the corresponding [documentation](
 ### Tracing
 
 The following table lists the available parameters to configure the tracing integrations on the Traefik Mesh proxies.
-As the proxies are vanilla Traefik, check out the corresponding [documentation](https://docs.traefik.io/observability/tracing/overview/) for more details.
+As the proxies are vanilla Traefik, check out the corresponding [documentation](https://doc.traefik.io/traefik/observability/tracing/overview/) for more details.
 
 | Key                                      | Description                                                                                                                                      | Default                                |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
