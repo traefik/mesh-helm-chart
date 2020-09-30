@@ -8,7 +8,7 @@ keywords:
   - traefik
   - mesh
   - smi
-home: https://mae.sh/
+home: https://traefik.io/traefik-mesh/
 sources:
   - https://github.com/traefik/mesh/
 maintainers:
