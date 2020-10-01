@@ -37,7 +37,8 @@ deploy: global-requirements $(DIST_DIR) $(HELM_REPO)
 	@curl -sSLO https://$(PROJECT)/archive/gh-pages.zip
 	@unzip -oj $(CURDIR)/gh-pages.zip -d $(HELM_REPO)/
 	@cp $(DIST_DIR)/*tgz $(HELM_REPO)/
-	@helm repo index --merge $(HELM_REPO)/index.yaml --url https://traefik.github.io/mesh-helm-chart/ $(HELM_REPO)
+	@cp $(CURDIR)/README.md $(HELM_REPO)/index.md
+	@helm repo index --merge $(HELM_REPO)/index.yaml --url https://helm.traefik.io/mesh/ $(HELM_REPO)
 	@echo "== Deploying Finished"
 
 # Cleanup leftovers and distribution dir
