@@ -3,7 +3,7 @@ entries:
   maesh:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2020-09-23T14:08:58.092962328Z"
+    created: "2020-10-01T08:03:01.201203507Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -38,11 +38,11 @@ entries:
     sources:
     - https://github.com/containous/maesh/
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-2.1.2.tgz
+    - https://helm.traefik.io/mesh/maesh-2.1.2.tgz
     version: 2.1.2
   - apiVersion: v2
     appVersion: v1.3.1
-    created: "2020-09-23T14:08:58.089802869Z"
+    created: "2020-10-01T08:03:01.198670538Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -77,11 +77,11 @@ entries:
     sources:
     - https://github.com/containous/maesh/
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-2.1.1.tgz
+    - https://helm.traefik.io/mesh/maesh-2.1.1.tgz
     version: 2.1.1
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2020-09-23T14:08:58.087493138Z"
+    created: "2020-10-01T08:03:01.196048194Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -107,11 +107,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-2.0.0.tgz
+    - https://helm.traefik.io/mesh/maesh-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2020-09-23T14:08:58.086270811Z"
+    created: "2020-10-01T08:03:01.194883293Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -137,11 +137,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-1.1.0.tgz
+    - https://helm.traefik.io/mesh/maesh-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.1.0-rc2
-    created: "2020-09-23T14:08:58.084994931Z"
+    created: "2020-10-01T08:03:01.193614605Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -167,11 +167,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-1.1.0-rc2.tgz
+    - https://helm.traefik.io/mesh/maesh-1.1.0-rc2.tgz
     version: 1.1.0-rc2
   - apiVersion: v2
     appVersion: v1.1.0-rc1
-    created: "2020-09-23T14:08:58.083674648Z"
+    created: "2020-10-01T08:03:01.192486924Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -197,11 +197,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-1.1.0-rc1.tgz
+    - https://helm.traefik.io/mesh/maesh-1.1.0-rc1.tgz
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2020-09-23T14:08:58.082141569Z"
+    created: "2020-10-01T08:03:01.191279375Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -227,11 +227,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-1.0.0.tgz
+    - https://helm.traefik.io/mesh/maesh-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.8.0
-    created: "2020-09-23T14:08:58.080338758Z"
+    created: "2020-10-01T08:03:01.190100722Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -257,11 +257,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.9.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.9.tgz
     version: 0.0.9
   - apiVersion: v1
     appVersion: v0.7.0
-    created: "2020-09-23T14:08:58.078600212Z"
+    created: "2020-10-01T08:03:01.188946674Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -287,11 +287,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.8.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v1
     appVersion: v0.6.0
-    created: "2020-09-23T14:08:58.075768655Z"
+    created: "2020-10-01T08:03:01.186417776Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -317,11 +317,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.7.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v1
     appVersion: v0.5.0
-    created: "2020-09-23T14:08:58.073344762Z"
+    created: "2020-10-01T08:03:01.184219874Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -347,11 +347,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.6.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
     appVersion: v0.4.0
-    created: "2020-09-23T14:08:58.072088738Z"
+    created: "2020-10-01T08:03:01.18297697Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -377,11 +377,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.5.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2020-09-23T14:08:58.070873611Z"
+    created: "2020-10-01T08:03:01.18181488Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -407,11 +407,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.4.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v1
     appVersion: v0.2.1
-    created: "2020-09-23T14:08:58.069645227Z"
+    created: "2020-10-01T08:03:01.180707037Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -437,11 +437,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.3.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.2.0
-    created: "2020-09-23T14:08:58.068444413Z"
+    created: "2020-10-01T08:03:01.17961703Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -467,11 +467,11 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.2.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.2.tgz
     version: 0.0.1
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2020-09-23T14:08:58.067406135Z"
+    created: "2020-10-01T08:03:01.178622285Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -497,12 +497,52 @@ entries:
       name: mmatur
     name: maesh
     urls:
-    - https://traefik.github.io/mesh-helm-chart/maesh-0.0.1.tgz
+    - https://helm.traefik.io/mesh/maesh-0.0.1.tgz
     version: 0.0.1
   traefik-mesh:
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2020-09-23T14:08:58.100245118Z"
+    created: "2020-10-01T08:03:01.208945776Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.1.0
+    description: Traefik Mesh - Simpler Service Mesh
+    digest: 13d687122f75739dad951f27babd9c631fb5b545649231a95ffca341906558d3
+    home: https://traefik.io/traefik-mesh/
+    icon: https://raw.githubusercontent.com/traefik/mesh/master/docs/content/assets/img/traefik-mesh.png
+    keywords:
+    - traefik
+    - mesh
+    - smi
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: michael@traefik.io
+      name: mmatur
+    - email: manuel@traefik.io
+      name: santode
+    - email: harold@traefik.io
+      name: jspdown
+    - email: kevin@traefik.io
+      name: kevinpollet
+    name: traefik-mesh
+    sources:
+    - https://github.com/traefik/mesh/
+    type: application
+    urls:
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.4.tgz
+    version: 3.0.4
+  - apiVersion: v2
+    appVersion: v1.4.0
+    created: "2020-10-01T08:03:01.207397357Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -538,11 +578,11 @@ entries:
     - https://github.com/traefik/mesh/
     type: application
     urls:
-    - https://traefik.github.io/mesh-helm-chart/traefik-mesh-3.0.3.tgz
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.3.tgz
     version: 3.0.3
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-09-23T14:08:58.098601419Z"
+    created: "2020-10-01T08:03:01.205861388Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -578,11 +618,11 @@ entries:
     - https://github.com/traefik/mesh/
     type: application
     urls:
-    - https://traefik.github.io/mesh-helm-chart/traefik-mesh-3.0.2.tgz
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-09-23T14:08:58.096791916Z"
+    created: "2020-10-01T08:03:01.204311057Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -618,11 +658,11 @@ entries:
     - https://github.com/traefik/mesh/
     type: application
     urls:
-    - https://traefik.github.io/mesh-helm-chart/traefik-mesh-3.0.1.tgz
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-09-23T14:08:58.094843639Z"
+    created: "2020-10-01T08:03:01.202770819Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -658,6 +698,6 @@ entries:
     - https://github.com/traefik/mesh/
     type: application
     urls:
-    - https://traefik.github.io/mesh-helm-chart/traefik-mesh-3.0.0.tgz
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.0.tgz
     version: 3.0.0
-generated: "2020-09-23T14:08:58.066146014Z"
+generated: "2020-10-01T08:03:01.177370718Z"
