@@ -1,0 +1,3 @@
+# Artifact Hub repository metadata file.
+# The ID of the Artifact Hub repository where the packages will be published to (enables verified publisher).
+repositoryID: b64ec782-6fdb-46dd-8bfd-57551ae9b4cc
