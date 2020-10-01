@@ -36,7 +36,7 @@ deploy: global-requirements $(DIST_DIR) $(HELM_REPO)
 	@rm -rf $(CURDIR)/gh-pages.zip
 	@curl -sSLO https://$(PROJECT)/archive/gh-pages.zip
 	@unzip -oj $(CURDIR)/gh-pages.zip -d $(HELM_REPO)/
-	@cp $(DIST_DIR)/*tgz $(HELM_REPO)/
+	@cp $(DIST_DIR)/*tgz $(CURDIR)/artifacthub-repo.yml $(HELM_REPO)/
 	@cp $(CURDIR)/README.md $(HELM_REPO)/index.md
 	@helm repo index --merge $(HELM_REPO)/index.yaml --url https://helm.traefik.io/mesh/ $(HELM_REPO)
 	@echo "== Deploying Finished"
