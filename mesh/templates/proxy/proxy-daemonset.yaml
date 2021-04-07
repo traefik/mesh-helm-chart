@@ -97,7 +97,7 @@ spec:
             - "--tracing.jaeger.disableAttemptReconnecting=false"
             {{- end }}
             {{- if .Values.tracing.datadog }}
-              {{- if .Values.tracing.datadog.localagenthostport }}
+              {{- if .Values.tracing.datadog.localAgentHostPort }}
             - "--tracing.datadog.localAgentHostPort={{ .Values.tracing.datadog.localAgentHostPort }}"
               {{- end }}
               {{- if .Values.tracing.datadog.debug }}
