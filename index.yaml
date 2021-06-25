@@ -3,7 +3,7 @@ entries:
   maesh:
   - apiVersion: v2
     appVersion: v1.3.2
-    created: "2020-11-12T09:34:57.019476916Z"
+    created: "2021-06-25T03:31:07.420651853Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -42,7 +42,7 @@ entries:
     version: 2.1.2
   - apiVersion: v2
     appVersion: v1.3.1
-    created: "2020-11-12T09:34:57.017433032Z"
+    created: "2021-06-25T03:31:07.41843123Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -81,7 +81,7 @@ entries:
     version: 2.1.1
   - apiVersion: v2
     appVersion: v1.2.0
-    created: "2020-11-12T09:34:57.01449805Z"
+    created: "2021-06-25T03:31:07.415658375Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -111,7 +111,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2020-11-12T09:34:57.013275005Z"
+    created: "2021-06-25T03:31:07.4145122Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -141,7 +141,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.1.0-rc2
-    created: "2020-11-12T09:34:57.012107225Z"
+    created: "2021-06-25T03:31:07.413353073Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -171,7 +171,7 @@ entries:
     version: 1.1.0-rc2
   - apiVersion: v2
     appVersion: v1.1.0-rc1
-    created: "2020-11-12T09:34:57.010920696Z"
+    created: "2021-06-25T03:31:07.412203121Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -201,7 +201,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2020-11-12T09:34:57.009603346Z"
+    created: "2021-06-25T03:31:07.411021382Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -231,7 +231,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.8.0
-    created: "2020-11-12T09:34:57.00849801Z"
+    created: "2021-06-25T03:31:07.409790599Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -261,7 +261,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: v0.7.0
-    created: "2020-11-12T09:34:57.007336374Z"
+    created: "2021-06-25T03:31:07.408619587Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -291,7 +291,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: v0.6.0
-    created: "2020-11-12T09:34:57.0047062Z"
+    created: "2021-06-25T03:31:07.406365661Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -321,7 +321,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: v0.5.0
-    created: "2020-11-12T09:34:57.002442058Z"
+    created: "2021-06-25T03:31:07.40392839Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -351,7 +351,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: v0.4.0
-    created: "2020-11-12T09:34:57.00118313Z"
+    created: "2021-06-25T03:31:07.402723645Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -381,7 +381,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2020-11-12T09:34:56.999914295Z"
+    created: "2021-06-25T03:31:07.401568518Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -411,7 +411,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: v0.2.1
-    created: "2020-11-12T09:34:56.998822372Z"
+    created: "2021-06-25T03:31:07.40043264Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -441,7 +441,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.2.0
-    created: "2020-11-12T09:34:56.997697492Z"
+    created: "2021-06-25T03:31:07.399303821Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -471,7 +471,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: v0.1.0
-    created: "2020-11-12T09:34:56.996688168Z"
+    created: "2021-06-25T03:31:07.398293598Z"
     dependencies:
     - condition: tracing.enabled
       name: tracing
@@ -502,7 +502,48 @@ entries:
   traefik-mesh:
   - apiVersion: v2
     appVersion: v1.4.1
-    created: "2020-11-12T09:34:57.032795297Z"
+    created: "2021-06-25T03:31:07.435237787Z"
+    dependencies:
+    - condition: tracing.deploy
+      name: tracing
+      repository: ""
+      version: 0.0.3
+    - condition: metrics.deploy
+      name: metrics
+      repository: ""
+      version: 0.1.0
+    description: Traefik Mesh - Simpler Service Mesh
+    digest: e57821ebaae6003672c8b33703117df47922a0500776f37e13f26919969982b7
+    home: https://traefik.io/traefik-mesh/
+    icon: https://raw.githubusercontent.com/traefik/mesh/master/docs/content/assets/img/traefik-mesh.png
+    keywords:
+    - traefik
+    - mesh
+    - smi
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: michael@traefik.io
+      name: mmatur
+    - email: manuel@traefik.io
+      name: santode
+    - email: harold@traefik.io
+      name: jspdown
+    - email: kevin@traefik.io
+      name: kevinpollet
+    name: traefik-mesh
+    sources:
+    - https://github.com/traefik/mesh/
+    - https://github.com/traefik/mesh-helm-chart/
+    type: application
+    urls:
+    - https://helm.traefik.io/mesh/traefik-mesh-3.0.7.tgz
+    version: 3.0.7
+  - apiVersion: v2
+    appVersion: v1.4.1
+    created: "2021-06-25T03:31:07.433688553Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -542,7 +583,7 @@ entries:
     version: 3.0.6
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2020-11-12T09:34:57.031058402Z"
+    created: "2021-06-25T03:31:07.432134585Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -582,7 +623,7 @@ entries:
     version: 3.0.5
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2020-11-12T09:34:57.02734907Z"
+    created: "2021-06-25T03:31:07.428378244Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -622,7 +663,7 @@ entries:
     version: 3.0.4
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2020-11-12T09:34:57.025639901Z"
+    created: "2021-06-25T03:31:07.426828975Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -662,7 +703,7 @@ entries:
     version: 3.0.3
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-11-12T09:34:57.024082015Z"
+    created: "2021-06-25T03:31:07.425280736Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -702,7 +743,7 @@ entries:
     version: 3.0.2
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-11-12T09:34:57.022566279Z"
+    created: "2021-06-25T03:31:07.423723719Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -742,7 +783,7 @@ entries:
     version: 3.0.1
   - apiVersion: v2
     appVersion: v1.4.0-rc1
-    created: "2020-11-12T09:34:57.02100635Z"
+    created: "2021-06-25T03:31:07.42220882Z"
     dependencies:
     - condition: tracing.deploy
       name: tracing
@@ -780,4 +821,4 @@ entries:
     urls:
     - https://helm.traefik.io/mesh/traefik-mesh-3.0.0.tgz
     version: 3.0.0
-generated: "2020-11-12T09:34:56.995439544Z"
+generated: "2021-06-25T03:31:07.397022411Z"
