@@ -1,6 +1,6 @@
 apiVersion: v2
 name: traefik-mesh
-version: 3.0.6
+version: 3.0.7
 appVersion: v1.4.1
 description: Traefik Mesh - Simpler Service Mesh
 type: application
@@ -11,6 +11,7 @@ keywords:
 home: https://traefik.io/traefik-mesh/
 sources:
   - https://github.com/traefik/mesh/
+  - https://github.com/traefik/mesh-helm-chart/
 maintainers:
   - name: emilevauge
     email: emile@vauge.com
