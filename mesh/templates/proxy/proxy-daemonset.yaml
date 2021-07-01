@@ -87,9 +87,9 @@ spec:
               {{- if .Values.tracing.jaeger.localAgentHostPort }}
             - "--tracing.jaeger.localAgentHostPort={{ .Values.tracing.jaeger.localAgentHostPort }}"
               {{- else }}
-            - {{ printf "--tracing.jaeger.localagenthostport=jaeger-agent.%s.svc.%s:6831" .Release.Namespace (default "cluster.local" .Values.clusterDomain) | quote }}
+            - {{ printf "--tracing.jaeger.localAgentHostPort=jaeger-agent.%s.svc.%s:6831" .Release.Namespace (default "cluster.local" .Values.clusterDomain) | quote }}
               {{- end }}
-              {{- if .Values.tracing.jaeger.localagenthostport }}
+              {{- if .Values.tracing.jaeger.samplingServerURL }}
             - "--tracing.jaeger.samplingServerURL={{ .Values.tracing.jaeger.samplingServerURL }}"
               {{- else }}
             - {{ printf "--tracing.jaeger.samplingServerURL=http://jaeger-agent.%s.svc.%s:5778/sampling" .Release.Namespace (default "cluster.local" .Values.clusterDomain) | quote }}
